@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            margin: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        p {
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 10px auto;
+            font-size: 18px;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            margin: 20px 0;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        audio, video {
+            margin: 20px 0;
+            display: block;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Media Showcase</h1>
+    <p>
+        This page demonstrates the integration of various media elements in a web page. 
+        Explore how HTML supports embedding images, audio, and video to create rich, engaging content for your users.
+    </p>
+
+    <!-- Image Section -->
+    <h2>Beautiful Landscape</h2>
+    <p>
+        Below is an image of a stunning landscape. Images are a great way to capture attention and convey emotions visually. 
+    </p>
+    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Beautiful Landscape">
+
+    <!-- Audio Section -->
+    <h2>Relaxing Audio</h2>
+    <p>
+        Listen to this relaxing audio track. Audio files can enhance user experience by adding an immersive sound layer to your content.
+    </p>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Section -->
+    <h2>Captivating Video</h2>
+    <p>
+        Watch this video to see an example of multimedia integration. Videos can convey complex information quickly and effectively.
+    </p>
+    <video controls width="500">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <footer>
+        <p>© 2025 Media Showcase | Designed to demonstrate HTML media integration</p>
+    </footer>
+</body>
+</html>
